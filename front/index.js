@@ -26,7 +26,7 @@ const getFilmes = async () => {
       `)
     })
   }
-
+...
   getFilmes();
 
   
