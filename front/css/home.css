@@ -38,7 +38,7 @@ body{
   padding: .5rem;
   display: flex;
   flex-direction: column;
-  background-color: var(--backcolor);
+  background: var(--backcolor);
   align-items: center;
   border: var(--boda)dashed .4rem;
   border-radius:.5rem ;
@@ -137,15 +137,13 @@ body{
 
 .card{
   font-size: 15pt;
-  background-color: var(--C-let-c);
-  border:var(--C-let-e) solid .4rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   display: flex;
   padding: 1rem;
   width: 20vw;
   height: 40vh;
   margin: 1rem;
-  background-color: var(--R-forte);
+  background-color:#0a061dea;
   justify-content:center;
   flex-wrap: wrap;
   text-align: left;
@@ -163,15 +161,15 @@ body{
 #img{
   width: 35%;
   height: 50%;
-  border: var(--C-let-e) solid .3rem;
+  border: #ffc0cb solid .2rem;
   border-radius: 0.5rem;
 }
 .card-header{
   text-align: center;
   width: 100%;
-  border-top: var(--C-let-e)solid .4rem;
+  border-top: var(--C-let-c)dashed .2rem;
   font-size: 20pt;
-  color: var(--C-let-e);
+  color: var(--C-let-c);
   padding: .5rem;
   margin-top: .5rem;
 

@@ -64,7 +64,6 @@ const getFilmes = async () => {
       if(result){getFilmes()}
     }
 else{
-    
     const request = new Request(`${urlApi}/${idEdicao}`, {
       method: 'PUT',
       body: JSON.stringify(filme),
@@ -75,6 +74,7 @@ else{
     
     if(result){
       getFilmes()
+      edicao = false
     }
 
   }
